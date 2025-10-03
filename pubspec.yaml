@@ -1,19 +1,14 @@
 name: ui_payload
-description: "Semantic UI content representation. Separate text and severity from presentation for i18n-ready, framework-agnostic payloads."
+description: Semantic UI content representation. Separate text and severity from presentation for i18n-ready, framework-agnostic payloads.
 version: 0.1.0
-homepage: https://github.com/CardosoShlomo/ui_payload.git
+repository: https://github.com/CardosoShlomo/ui_payload
 
 environment:
-  sdk: ^3.9.2
-  flutter: ">=1.17.0"
+  sdk: '>=3.9.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
-
-flutter:
+  flutter_lints: ^6.0.0
